@@ -31,7 +31,7 @@ function insertEvents($db,$data){
 
 }
 
-function getEvents($db){
+function getMovies($db){
     $eventQuery = "SELECT * FROM events";
     try{
         $sth = $db->prepare($eventQuery);
